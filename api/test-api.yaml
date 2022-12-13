@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-api
+  tags:
+    - openapi-v2
+    - example
+    - v1
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: group:team-b
+  system: product
+  definition:
+    $text: https://git.t8h.io/-/snippets/72/raw/master/openapi-v2-api.json
